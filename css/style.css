@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image: url(../images/Background_1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.100 {
+	width: 100%;
+}
+header[role=main] {
+	background-image: url(../images/header.png);
+	height: 234px;
+	position: relative;
+}
+#title {
+	margin-top: 50px;
+}
+#menucontainer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+#dropdownmenu {
+	width: 350px;
+	margin: auto;
+}
+#dropdownmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+#dropdownmenu ul li {
+	display: block;
+	position: relative;
+	float: left;
+}
+#dropdownmenu li ul {
+	display: none;
+}
+#dropdownmenu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-right: 3px solid white;
+	border-left: 2px solid black;
+	padding: 5px 20px 5px 20px;
+	background: #E26F13;
+	margin-bottom: 1px;
+	width: 350px;
+	font-family: Gemina;
+	text-align: center;
+}
+#dropdownmenu ul li a:hover {
+	background: #F5B98A;
+}
+#dropdownmenu li:hover ul {
+	display: block;
+	position: absolute;
+}
+#dropdownmenu li:hover li {
+	float: none;
+	font-size: 11px;
+}
+#dropdownmenu li:hover a {
+	background: #E26F13;
+}
+#dropdownmenu li:hover li a:hover {
+	background: #F5B98A;
+}
+aside[role=banner] {
+	background-color: rgba(255,255,255,0.70);
+	min-height: 720px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+aside[role=banner] img {
+	border: 5px groove grey;
+}
+.featuress {
+	margin-top: 50px;
+}
+#comments {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+#form {
+	display: inline-block;
+	text-align: center;
+}
+section {
+	background-color: rgba(82,82,82,0.70);
+	min-height: 610px;
+	margin-top: 20px;
+	padding: 20px;
+}
+section h1 {
+	color: #E26F13;
+	font-family: Gemina;
+	font-size: 40px;
+	text-shadow:2px 2px 1px black;
+}
+footer[role=main] {
+	background-image: url(../images/footer.png);
+	margin-top: 20px;
+	height: 180px;
+}
+#EARES img {
+	margin-top: 20px;
+}
+#mediasection {
+	background-color: rgba(255,255,255,0.70);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+#youtube {
+	width: 853px;
+	margin: auto;
+}
+#twitchsection {
+	background-color: rgba(255,255,255,0.70);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+#twitchvid {
+	width: 853px;
+	margin: auto;
+}
+#social {
+	float: right;
+	font-family: Gemina;
+	height: 150px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#social ul li {
+	list-style: none;
+	display: block;
+}
+#social ul li a {
+	text-decoration: none;
+	color: white;
+	float: right;
+}
+#social ul li a p {
+	float: right;
+}
+#social ul li a:hover {
+	text-decoration: none;
+	color: #E26F13;
+}
+#EARES {
+	float: left;
+}
+#origin {
+	float:left;
+	margin-top:20px;
+	margin-left:50px;
+	height:50px;
+}
+#origin img {
+	float:left;
+}
+#origin p {
+	float:left;
+	font-family:Gemina;
+	font-size:16px;
+	line-height:10px;
+	margin-left:5px;
+}
